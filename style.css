@@ -1,9 +1,11 @@
 #hdr {
   height: 35px;
-  color: white;
+  color: green;
+  background-color: green;
 }
 
 #ftr {
   height: 35px;
-  color: white;  
+  color: red;
+  background-color: red;
 }
