@@ -1,7 +1,14 @@
+#main{
+  border-width: 15px;
+  border-style: solid;
+  border-color: black;
+}
+
+
 #hdr {
-  height: 35px;
-  color: green;
-  background-color: green;
+  height: 65px;
+  color: #809477;
+  background-color: #809477;
 }
 
  #track {
@@ -9,11 +16,11 @@
     left: 0px;
     top: 0px;
     z-index: auto;
-    float: right;
+    align: right;
 }
 
 #ftr {
-  height: 35px;
-  color: red;
-  background-color: red;
+  height: 65px;
+  color: #809477;
+  background-color: #809477;
 }
