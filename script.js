@@ -1,7 +1,15 @@
-fetch("https://omdb-api.now.sh/?apikey=702b3bb5&s=freaks");
-.then(function(responce) {
-    return responce.json();
+fetch('https://lit-fortress-6467.herokuapp.com/object')
+  .then(function(response) {
+    return response.json();
   })
-  .then(function(mydata) {
-    cosolelog(mydata);
+  .then(function(apiData) {
+    console.log(apiData)
   })
+
+
+/*    let movies = apiData.Search;
+
+    for (let i = 0; i < movies.length; i++); {
+
+    })
+console.log(apiData.Search);   */
